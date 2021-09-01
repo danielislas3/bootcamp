@@ -15,32 +15,31 @@
 
 ## 1. Preámbulo
 
-La trivia es un tipo de juego, generalmente en el marco de un concurso, en el
+Una _trivia_ es un tipo de juego, generalmente en el marco de un concurso, en el
 que se plantea una serie de preguntas cuyas respuestas deben ser escogidas entre
-diferentes opciones.
+diferentes opciones predeterminadas.
 
-En la actualidad, con lo extendido del uso de smartphones, sus aplicaciones, y
-el acceso a Internet, existen muchas posibilidades de participar de una trivia
-online. Con una rápida búsqueda en internet, te podrás dar cuenta que existen
-trivias de muchas temáticas (ciencia, series, televisión, etc.), Hay varias que,
-incluso, ofrecen dinero como recompensa.
+En la actualidad existen muchas posibilidades de participar de una trivia
+_online_. Con una rápida búsqueda en internet, te darás cuenta de que existen
+trivias de muchas temáticas (ciencia, series, televisión, etc.). Hay varias que
+ofrecen, incluso, dinero como recompensa.
 
 ![TRIVIA](https://phandroid.s3.amazonaws.com/wp-content/uploads/2018/01/hq-trivia-android-screenshot.jpg)
 
 ## 2. Resumen del proyecto
 
-¿Qué tengo que hacer exactamente? En este proyecto tendrás que construir una
-aplicación web que le permita a un usuario responder distintas preguntas
-escogiendo sus respuestas de una lista de alternativas.
+**¿Qué tengo que hacer exactamente?** Como es obvio, construirás una aplicación _Web_
+de una _trivia_.
 
-La temática es libre. Tú debes crear la mejor trivia que puedas y luego pensar
-en cómo debe ser esa experiencia de uso (qué pantallas, explicaciones, mensajes,
-colores, ¿marca?) etc.
+El objetivo principal de este proyecto es que tengas una primera experiencia
+desarrollando aplicaciones _Web_ (WebApp) que interactúen con la usuaria a
+través del navegador, utilizando HTML, CSS y JavaScript.
 
-El objetivo principal de este proyecto es, tener una primera experiencia
-desarrollando aplicaciones web (WebApp) que interactúen con el usuario a
-través del navegador y la lógica, utilizando HTML, CSS y JavaScript como
-herramientas.
+La temática es libre, decídela rápidamente y luego piensa en cómo debe ser la
+experiencia para tus usuarias. Piensa en las pantallas, el flujo, los mensajes,
+colores, etc.
+
+
 
 ## 3. Objetivos de aprendizaje
 
@@ -54,22 +53,99 @@ herramientas.
 
 ## 4. Consideraciones generales
 
-* Este proyecto se debe resolver en duplas.
-* Tiempo para completarlo: Toma como referencia 3 días. Trata de fijar un
-estimado de cuándo lo terminarás.
+* Este proyecto se debe trabajar en duplas.
+* Debes preocuparte de que ambas puedan hacer y aprender de todo. Acá no sirve
+eso de "tú haces el HTML y CSS y yo hago el JavaScript".
 
-## 5. Criterios de aceptación mínimos del proyecto
+## 5. Recomendaciones
+### 5.1. Prototipo.
+Algo que siempre ayuda a poner “en concreto” lo que tienes en mente, es hacer un
+prototipo "de baja fidelidad" **de todo el proyecto**. Dibujar en papel y lápiz es
+un proceso rápido que permite entender cómo, cuándo y dónde suceden las cosas;
+dónde exactamente debe decir tal o cual cosa, qué pasa si el usuario hace A o B,
+dónde debe hacer _click_, qué información exactamente quieres mostrarle, etc.
+**Dedica un máximo de dos horas a esto antes de ponerte a codear**.
 
-Los criterios que deberás considerar para saber si has completado este proyecto
-son:
+### 5.2. No postergues lo que no sabes hacer, comienza por eso
+No te quedes horas embelleciendo tus prototipos o haciendo logotipos o esquemas
+de color teniendo la sensación de que estás “avanzando”. Es natural que tengas
+el impulso de quedarte haciendo lo que puedes imaginar cómo se hace o lo que ya
+sabes hacer, es tu cerebro pidiendo su dosis de **satisfacción inmediata**.
+No te dejes engañar por la “ilusión” del avance, **tu objetivo es aprender,
+no entregar el proyecto**. Enfréntate a lo que no sabes lo más pronto posible,
+es el único camino para aprender. No te preocupes por mostrarnos lo que ya
+“sabes hacer”, no es eso lo que más nos interesa observar. **Queremos ver cómo
+enfrentas el aprendizaje de lo que no sabes, danos la oportunidad de verlo.**
+
+### 5.3. Aprender por encima de completar el proyecto
+Evita la tentación de copiar y pegar código que “funcione” para ir completando
+el proyecto sin entender cómo ni por qué funciona. Prefiere siempre hacer poco
+pero que entiendes y puedes explicar, antes que mucho que funciona a
+medias y que no sabes bien cómo ni por qué funciona.
+
+### 5.4. Achicar el gran problema problemas más pequeños
+Un "superpoder" que esperamos puedas desarrollar durante el _bootcamp_ es el de
+definir "micro-proyectos" que te acerquen paso a paso a la solución del
+"gran proyecto".  Podríamos decir que es algo así como comenzar armando un
+rompecabezas/_puzzle_ por las esquinas o bordes sin saber necesariamente cómo
+encajarán al final. Déjate llevar y explora libremente, no tienes que saberlo
+todo antes de comenzar.
+
+Más adelante te daremos algunas sugerencias a modo de ejemplo.
+
+## 5. Criterios de aceptación del proyecto
+Reconocemos y valoramos la diversidad por encima de muchas otras coas. Sabemos
+que cada una de ustedes sabe un poco más o un poco menos de Desarrollo Web,
+también sabemos que cada una aprende distinto, a diferente ritmo, tiene otras
+responsabilidades, necesidades, disponibilidad de tiempo, etc. No esperamos que
+todas completen lo mismo
+
+Te proponemos trabajar en "hitos". No trabajes haciendo toooooooooooooooooodo
+el HTML y CSS de todas las pantallas que imaginaste pero solamente funciona una
+parte y a medias; tampoco un montón de funcionalidad en la consola pero que no
+tiene una interfaz.
+
+La siguiente metáfora te puede ayudar a comprender mejor la idea.
+![AGILE](https://miro.medium.com/max/1400/1*qINsG4WH_BDN-viMJUH6Ng.png)
+
+Estas etapas desde la patineta hasta el auto es a lo que llamaremos "hitos".
+Trabaja a conciencia hasta donde alcances.
+
+### Hito 1
+La versión más simple de una _trivia_.
+- 1 sola pregunta con, al menos, 3 alternativas de respuesta.
+- 1 botón para responder y ver la respuesta correcta.
+- No te dice si acertaste o no pero sí te dice qué alternativa era correcta.
+
+### Hito 2
+Agrega una pantalla simple de bienvenida:
+-  Tiene una caja de texto (_input text_) en la que se debe escribir el nombre
+de quien juega.
+- Un botón de "jugar" o "comenzar" para ir a las preguntas.
+- Esta vez deberán haber al menos 3 preguntas.
+- Antes de las peguntas debe decir "Hola [el nombre que se escribió en la
+pantalla de bienvenida]"
+- El botón de responder muestra la alternativa correcta para cada pregunta.
+- Un botón para volver a jugar que vuelve a la pantalla inicial en la que se
+pide el nombre.
+
+### Hito 3
+- Permítele al jugador elegir entre 2 tipos de preguntas antes de ir a responder.
+Por ejemplo, unas sobre comida y otras sobre cervezas.
+- Agrega un puntaje a preguntas correctas e incorrectas y muestra un puntaje total.
+
+### Hito 4
+Agrega una cuenta regresiva con un tiempo límite para responder a las preguntas.
+
+### Hito 5
+Sube tu código a un repositorio de GitHub y publica tu aplicación _Web en
+GitHub Pages.
 
 ### Definición del producto
 
-Documenta brevemente tu trabajo en el archivo `README.md` de tu repositorio,
+Documenta **brevemente** tu trabajo en el archivo `README.md` de tu repositorio,
 contándonos cómo fue tu proceso de diseño y cómo crees que el producto resuelve
 el problema (o problemas) que tiene tu usuario.
-
-### Diseño de la Interfaz de Usuario
 
 #### Prototipo de baja fidelidad
 
