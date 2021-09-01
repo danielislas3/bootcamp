@@ -28,7 +28,7 @@ ofrecen, incluso, dinero como recompensa.
 
 ## 2. Resumen del proyecto
 
-**¿Qué tengo que hacer exactamente?** Como es obvio, construirás una aplicación _Web_
+**¿Qué tengo que hacer exactamente?** Como es obvio, construirás la aplicación _Web_
 de una _trivia_.
 
 El objetivo principal de este proyecto es que tengas una primera experiencia
@@ -38,8 +38,6 @@ través del navegador, utilizando HTML, CSS y JavaScript.
 La temática es libre, decídela rápidamente y luego piensa en cómo debe ser la
 experiencia para tus usuarias. Piensa en las pantallas, el flujo, los mensajes,
 colores, etc.
-
-
 
 ## 3. Objetivos de aprendizaje
 
@@ -109,13 +107,46 @@ La siguiente metáfora te puede ayudar a comprender mejor la idea.
 ![AGILE](https://miro.medium.com/max/1400/1*qINsG4WH_BDN-viMJUH6Ng.png)
 
 Estas etapas desde la patineta hasta el auto es a lo que llamaremos "hitos".
-Trabaja a conciencia hasta donde alcances.
+Trabaja a conciencia hasta donde alcances, saltando hitos si es que así lo decides.
 
 ### Hito 1
 La versión más simple de una _trivia_.
-- 1 sola pregunta con, al menos, 3 alternativas de respuesta.
+- 1 sola pantalla o vista.
+- 2 preguntas con, al menos, 3 alternativas de respuesta cada una.
 - 1 botón para responder y ver la respuesta correcta.
 - No te dice si acertaste o no pero sí te dice qué alternativa era correcta.
+
+<details>
+<summary>Sugerencia de micro-proyecto 1</summary>
+
+##### Solamente el "esqueleto" estático
+- Dos preguntas con sus respectivas alternativas de respuesta en forma de
+_radio buttons_ (🔘)
+- El botón para “Responder y ver resultados”.
+
+##### Aprenderás:
+Cómo construir una página básica HTML con elementos de formulario.
+</details>
+
+<details>
+<summary>Sugerencia de micro-proyecto 2</summary>
+
+##### Prueba darle algo de interacción
+Cuando la usuaria dé _click_ en alguno de los _radio buttons_, muéstrale un
+mensaje de alerta (_alert_) en el navegador que contenga el valor (texto) del
+_radio button_ cliqueado.
+
+**Pista**: Para mostrar un mensaje de alerta básico hay una función de JavaScript
+llamada “_alert_”. Esta función puede “escuchar” eventos del navegador como
+_click_ y hacer algo cuando suceda usando _onclick_ o _addEventListener_.
+
+##### Aprenderás:
+- Detectar eventos en el navegador (los _clicks_ de la usuaria) y hacer algo
+cuando sucedan.
+- Identificar los elementos HTML que hay en el navegador y obtener sus valores
+y/o estados.
+
+</details>
 
 ### Hito 2
 Agrega una pantalla simple de bienvenida:
@@ -141,53 +172,25 @@ Agrega una cuenta regresiva con un tiempo límite para responder a las preguntas
 Sube tu código a un repositorio de GitHub y publica tu aplicación _Web en
 GitHub Pages.
 
-### Definición del producto
+### General
+Independientemente de hastaqué hito alcances a hacer, asegúrate de:
 
-Documenta **brevemente** tu trabajo en el archivo `README.md` de tu repositorio,
-contándonos cómo fue tu proceso de diseño y cómo crees que el producto resuelve
-el problema (o problemas) que tiene tu usuario.
+- Documenta **brevemente** tu trabajo en un documento o el archivo `README.md`
+de tu repositorio contándonos cómo fue tu proceso de diseño y cómo crees que el
+producto resuelve el problema (o problemas) que tiene tu usuario.
 
-#### Prototipo de baja fidelidad
-
-Durante tu trabajo deberás haber hecho e iterado bocetos (_sketches_) de tu
-solución usando papel y lápiz. Te recomendamos tomar fotos de todas las
-iteraciones que hagas, que las subas a tu repositorio y las menciones en tu
-`README.md`.
-
-### Implementación de la Interfaz de Usuario (HTML/CSS/JS)
-
-Luego de diseñar tu interfaz de usuario deberás trabajar en su implementación.
-**No** es necesario que construyas la interfaz exactamente como la diseñaste.
-No tienes tiempo ilimitado para trabajar, así es que deberás priorizar.
-
-El [MVP](https://www.youtube.com/watch?v=0Dn-BHj6l2E) (producto mínimo viable)
-de tu implementación debe:
-
-1. Mostrar una pantalla de bienvenida, pida tu nombre para comenzar a jugar.
-2. Mostrar un mensaje de Hola [tu nombre] y dos botones para comenzar a jugar.
-   - Jugar con preguntas de tipo A (Por ejemplo: sobre comida)
-   - Jugar con preguntas de tipo B (Por ejemplo: sobre cervezas)
-3. Lanzar la pregunta 1 con alternativas, el usuario responde, luego se muestra
-   la pregunta 2 y luego la 3.
-4. Mostrar una pantalla de resultados (respuestas correctas) y dos botones de
-   volver a jugar:
-   - Jugar con preguntas de tipo A (Por ejemplo: sobre comida)
-   - Jugar con preguntas de tipo B (Por ejemplo: sobre cervezas)
-
-## 6. Hacker edition
-
-Si **terminaste** con todo lo anterior y te queda tiempo, intenta explorar y
-completar lo siguiente:
-
-* Agregar una cuenta regresiva con un tiempo límite para responder cada pregunta.
-* Subir tu código a GitHub (commit/push) y desplegar la interfaz usando GitHub
-pages.
+- Durante tu trabajo deberás haber hecho e iterado (volver a hacer) bocetos
+(_sketches_) de tu propuesta usando papel y lápiz. Te recomendamos tomar fotos
+de todas las iteraciones que hagas, que las pongas en tu docuemnto o las subas
+a tu repositorio y las menciones en tu `README.md`.
 
 ## 7. Consideraciones técnicas
 
 La lógica del proyecto debe estar implementada completamente en JS, HTML y CSS
-En este proyecto NO está permitido usar librerías o frameworks,
+En este proyecto NO debes usar librerías o _frameworks_,
 solo [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e).
+
+Al final, deberás tener 3 archivos:
 
 ### `src/index.html`
 
@@ -215,7 +218,12 @@ funciones que sean necesarias para actualizar el resultado en la pantalla (UI).
 
 ## 8. Pistas, tips y lecturas complementarias
 
-### Primeros pasos
+### Prepara tu ambiente de trabajo
+#### Si estás recién dando tus primeros pasos en el Desarrolo Web:
+Quizás prefieras trabajar con alguna herramienta de edición de código en línea
+como [Codepen](https://codepen.io/pen/)
+
+#### Si ya tienes cierta experiencia:
 
 1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
    condiciones, algo como [Atom](https://atom.io/) o
@@ -233,7 +241,6 @@ funciones que sean necesarias para actualizar el resultado en la pantalla (UI).
    darán acceso de lectura en ese repo.
 4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
    tu *fork* a tu computadora (copia local).
-5. A codear se ha dicho! :rocket:
 
 ### Recursos y temas relacionados
 
