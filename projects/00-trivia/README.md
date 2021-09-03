@@ -7,7 +7,7 @@
 <!--* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)-->
 * [3. Consideraciones generales](#3-consideraciones-generales)
 * [4. Recomendaciones](#4-recomendaciones)
-* [5. Criterios de aceptación del proyecto](#6-criterios-de-aceptación-del-proyecto)
+* [5. Criterios de aceptación del proyecto](#6-alcance-del-proyecto)
 * [6. Consideraciones técnicas](#7-consideraciones-técnicas)
 * [7. Ambiente de trabajo y lecturas complementarias](#7-ambiente-de-trabajo-y-lecturas-complementarias)
 
@@ -57,8 +57,9 @@ colores, etc.
 eso de "tú haces el HTML y CSS y yo hago el JavaScript". El objetivo es aprender,
 no "terminar y entregar".
 * Completar el proyecto **no es un requisito para ser admitida al _bootcamp_**.
-* Dejarnos entender con transparencia tu proceso **sí es un requisito para considerarte.**.
-* Queremos verte aprender, no hacer lo que ya sabes.
+* Queremos verte aprender lo que aún no sabes. Sé transparente para que podamos
+entender tu proceso de aprendizaje y no solamente ver el resultado final.
+
 
 ## 4. Recomendaciones
 ### 4.1. Prototipo.
@@ -74,9 +75,7 @@ No gastes horas embelleciendo tus prototipos o haciendo logotipos teniendo la
 sensación de que estás “avanzando”. Es natural que tengas el impulso de hacerlo,
 es tu cerebro pidiendo su dosis de **satisfacción inmediata**. No te dejes engañar
 por la “ilusión” del avance, **tu objetivo es aprender**. Enfréntate a lo que no
-sabes lo más pronto posible, es el único camino para aprender. Como te decíamos
-líneas arriba,  **Queremos ver cómo enfrentas el aprendizaje de lo que no sabes,
-danos la oportunidad de hacerlo.**
+sabes lo más pronto posible, es el único camino para aprender.
 
 ### 4.3. Aprender por encima de completar el proyecto
 Evita la tentación de copiar y pegar código que “funcione” para ir completando
@@ -94,11 +93,11 @@ todo antes de comenzar.
 
 Más adelante te daremos algunas sugerencias como ejemplo.
 
-## 5. Criterios de aceptación del proyecto
-Reconocemos y valoramos la diversidad por encima de muchas otras coas. Sabemos
-que cada una de ustedes sabe un poco más o un poco menos de Desarrollo Web,
-también sabemos que cada una aprende distinto, a diferente ritmo. No esperamos
-que todas completen lo mismo
+## 5. Alcance del proyecto
+Reconocemos y valoramos la diversidad por encima de muchas otras cosas. Sabemos
+que cada una de ustedes sabe un poco más o un poco menos de Desarrollo Web;
+también sabemos que cada una aprende distinto, a diferente ritmo. **No esperamos
+que todas completen los 3 hitos**.
 
 Te proponemos trabajar en "hitos" o etapas incrementales. No trabajes como su
 fuera una fábrica haciendo tooooooooooooooooooooooooodo el HTML y CSS de todas
@@ -111,7 +110,8 @@ La siguiente metáfora te puede ayudar a comprender mejor la idea.
 ![AGILE](https://miro.medium.com/max/1400/1*qINsG4WH_BDN-viMJUH6Ng.png)
 
 Esas etapas, desde la patineta hasta el auto, es a lo que llamaremos "hitos".
-Trabaja a conciencia hasta donde alcances.
+Eres libre de seguir esta recomendación o trabajar como tú prefieras. Quizás te
+se útil si recién estás comenzando a aprender de Desarrollo Web, tu decides.
 
 -----------
 ### Hito 1
@@ -211,16 +211,13 @@ Por ejemplo, unas sobre comida y otras sobre cervezas.
 total al final.
 
 -----------
-### Hito 4
-Sube tu código a un repositorio de GitHub y publica tu aplicación _Web en
-GitHub Pages.
 
-----------
-### Hito 5
-Agrega una cuenta regresiva con un tiempo límite para responder a las preguntas.
+Si hiciste todo lo anterior y tienes un poco más de tiempo, decide qué más
+quisieras hacer para mejorar tu proyecto. Podrías, por ejemplo, agregar una
+cuenta regresiva con un tiempo límite para responder a las preguntas. Puedes
+subir tu código a un repositorio de GitHub y publicar tu aplicación _Web en
+GitHub Pages y compartir la URL con quien quieras.
 
------------
-### General
 Independientemente de hasta qué hito alcances a hacer, asegúrate de documentar
 **brevemente** tu trabajo en un documento de Google o el archivo `README.md`
 de tu repositorio. Cuéntanos un poco cómo fue tu proceso de diseño de la
@@ -270,7 +267,7 @@ funciones que sean necesarias para actualizar el resultado en la pantalla (UI).
 ### Prepara tu ambiente de trabajo
 #### Si estás dando tus primeros pasos en el Desarrolo Web:
 Quizás prefieras trabajar con alguna herramienta de edición de código en línea
-como [Codepen](https://codepen.io/pen/)
+como [Codepen](https://codepen.io/pen/) o [Replit](https://replit.com/).
 
 #### Si ya tienes cierta experiencia y vas a trabajar con un repositorio de código:
 
