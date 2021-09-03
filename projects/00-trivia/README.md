@@ -65,7 +65,7 @@ no "terminar y entregar".
 Algo que siempre ayuda a poner “en concreto” lo que tienes en mente, es hacer un
 simple prototipo en papel y lápiz **de todo el proyecto**. Dibujar es un proceso
 rápido que permite entender cómo, cuándo y dónde suceden las cosas;
-dónde exactamente debe decir tal o cual cosa, qué pasa si el usuario hace A o B,
+dónde exactamente debe decir tal o cual cosa, qué pasa si la usuaria hace A o B,
 dónde debe hacer _click_, qué información exactamente quieres mostrarle, etc.
 **Dedica un máximo de dos horas a esto antes de ponerte a codear**.
 
@@ -76,7 +76,7 @@ es tu cerebro pidiendo su dosis de **satisfacción inmediata**. No te dejes enga
 por la “ilusión” del avance, **tu objetivo es aprender**. Enfréntate a lo que no
 sabes lo más pronto posible, es el único camino para aprender. Como te decíamos
 líneas arriba,  **Queremos ver cómo enfrentas el aprendizaje de lo que no sabes,
-danos la oportunidad de verlo.**
+danos la oportunidad de hacerlo.**
 
 ### 4.3. Aprender por encima de completar el proyecto
 Evita la tentación de copiar y pegar código que “funcione” para ir completando
@@ -86,10 +86,10 @@ medias y/o que no sabes bien cómo ni por qué funciona.
 
 ### 4.4. Achicar el gran problema en problemas más pequeños
 Un "superpoder" que esperamos puedas desarrollar durante el _bootcamp_ es el de
-definir "micro-proyectos" que te acerquen paso a paso a la solución del
-"gran proyecto".  Podríamos decir que es algo así como comenzar armando un
-rompecabezas/_puzzle_ por las esquinas o bordes sin saber necesariamente cómo
-encajarán al final. Déjate llevar y explora libremente, no tienes que saberlo
+definir "micro-proyectos" que te acerquen paso a paso, pero de manera transversal,
+a la solución del "gran proyecto".  Podríamos decir que es algo así como comenzar
+armando un rompecabezas/_puzzle_ por las esquinas o bordes sin saber necesariamente
+cómo encajarán al final. Déjate llevar y explora libremente, no tienes que saberlo
 todo antes de comenzar.
 
 Más adelante te daremos algunas sugerencias como ejemplo.
@@ -100,10 +100,12 @@ que cada una de ustedes sabe un poco más o un poco menos de Desarrollo Web,
 también sabemos que cada una aprende distinto, a diferente ritmo. No esperamos
 que todas completen lo mismo
 
-Te proponemos trabajar en "hitos". No trabajes haciendo toooooooooooooooooodo
-el HTML y CSS de todas las pantallas que imaginaste y que solamente funcione una
-parte y a medias; tampoco un montón de funcionalidad en la consola pero que no
-tiene una interfaz para ser utilizada por una usuaria no-developer.
+Te proponemos trabajar en "hitos" o etapas incrementales. No trabajes como su
+fuera una fábrica haciendo tooooooooooooooooooooooooodo el HTML y CSS de todas
+las pantallas que imaginaste para luego comenzar con el JavaScript y la funcionalidad.
+El riesgo es que consigas muchas partes sin ninguna funcionalidad o a medias;
+tampoco hagas lo inverso, un montón de funcionalidad en la consola pero que no
+tiene una interfaz para ser utilizada por una usuaria no-_developer_.
 
 La siguiente metáfora te puede ayudar a comprender mejor la idea.
 ![AGILE](https://miro.medium.com/max/1400/1*qINsG4WH_BDN-viMJUH6Ng.png)
@@ -116,8 +118,8 @@ Trabaja a conciencia hasta donde alcances.
 La versión más simple de una _trivia_.
 - 1 sola pantalla o vista.
 - 2 preguntas con, al menos, 3 alternativas de respuesta cada una.
-- 1 botón para responder y ver la respuesta correcta.
-- No te dice si acertaste o no pero sí te dice qué alternativa era correcta.
+- 1 botón para responder y ver cuál era la alternativa correcta.
+- No te dice si acertaste o no, sólo te dice cuál alternativa era la correcta.
 
 <details>
 <summary>Sugerencia de micro-proyecto A</summary>
@@ -168,14 +170,14 @@ el botón “Responder y ver resultados”.
 -----------
 ### Hito 2
 Agrega una pantalla simple de bienvenida:
--  Tiene una caja de texto (_input text_) en la que se debe escribir el nombre
-de quien juega.
+-  Tiene una caja de texto (_input text_) en la que escribe su nombre quien juega.
 - Un botón de "jugar" o "comenzar" para ir a las preguntas.
-- Esta vez deberán haber al menos 3 preguntas.
+- Esta vez deberán haber al menos 3 preguntas con sus respectivas alternativas
+de respuesta.
 - Antes de las peguntas debe decir "Hola [el nombre que se escribió en la
 pantalla de bienvenida]"
-- El botón de responder muestra la alternativa correcta para cada pregunta y
-, además, muestra si la respuesta fue correcta o incorrecta.
+- El botón de responder muestra la alternativa correcta para cada pregunta y,
+además, muestra si cada una de las respuestas fue correcta o incorrecta.
 - Un botón para volver a jugar que vuelve a la pantalla inicial en la que se
 pide el nombre.
 
@@ -210,25 +212,22 @@ total al final.
 
 -----------
 ### Hito 4
-Agrega una cuenta regresiva con un tiempo límite para responder a las preguntas.
-
-----------
-### Hito 5
 Sube tu código a un repositorio de GitHub y publica tu aplicación _Web en
 GitHub Pages.
 
+----------
+### Hito 5
+Agrega una cuenta regresiva con un tiempo límite para responder a las preguntas.
+
 -----------
 ### General
-Independientemente de hasta qué hito alcances a hacer, asegúrate de:
-
-- Documentar **brevemente** tu trabajo en un documento o el archivo `README.md`
-de tu repositorio contándonos cómo fue tu proceso de diseño y cómo crees que el
-producto resuelve el problema (o problemas) que tiene tu usuario.
-
-- Durante tu trabajo deberás haber hecho e iterado (volver a hacer) bocetos
-(_sketches_) de tu propuesta usando papel y lápiz. Te recomendamos tomar fotos
-de todas las iteraciones que hagas, que las pongas en tu documento o las subas
-a tu repositorio y las menciones en tu `README.md`.
+Independientemente de hasta qué hito alcances a hacer, asegúrate de documentar
+**brevemente** tu trabajo en un documento de Google o el archivo `README.md`
+de tu repositorio. Cuéntanos un poco cómo fue tu proceso de diseño de la
+experiencia de uso y cómo crees que resuelve el la necesidad (o "problema") que
+tiene tu usuaria. Incluye algunas imágenes de tus prototipos en papel y lápiz
+que nos ayuden a entender el proceso, no el resultado. ¿Fuiste cambiando cosas
+en el camino?, ¿cuáles?, ¿por qué?.
 
 ## 6. Consideraciones técnicas
 
